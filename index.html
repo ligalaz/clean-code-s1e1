@@ -10,7 +10,9 @@
   </head>
   <body class="page-structure">
     <header class="todo-info">
-      <img class="todo-info__image" src="./eisenhower-matrix.jpg" alt="the eisenhower matrix">
+      <img class="todo-info__image" 
+          src="./eisenhower-matrix.jpg" 
+          alt="the eisenhower matrix">
       <a class="todo-info__link" 
           href="https://goal-life.com/page/method/matrix-eisenhower">
           Want more details?
@@ -26,23 +28,31 @@
       </section>
       <section class="todo-planned-task">
         <h3 class="title todo-planned-task__title">Todo</h3>
-        <ul class="list todo-planned-task__list" id="incompleteTasks">
+        <ul class="list todo-planned-task__list">
           <li class="list-item todo-planned-task__list-item">
             <input class="input todo-planned-task__checkbox" type="checkbox">
             <label class="task label todo-planned-task__label">Pay Bills</label>
             <input class="input task todo-planned-task__text" type="text">
             <button class="btn todo-planned-task__main-button">Edit</button>
             <button class="btn todo-planned-task__delete-button">
-              <img class="btn__delete" src="./remove.svg" alt="current planned task remove cross">
+              <img class="btn__delete" 
+                  src="./remove.svg" 
+                  alt="current planned task remove cross">
             </button>
           </li>
           <li class="list-item todo-planned-task__list-item list-item_edit">
             <input class="input todo-planned-task__checkbox" type="checkbox">
-            <label class="task label todo-planned-task__label">Go Shopping</label>
-            <input class="input task todo-planned-task__text" type="text" value="Go Shopping">
+            <label class="task label todo-planned-task__label">
+                Go Shopping
+            </label>
+            <input class="input task todo-planned-task__text" 
+                type="text" 
+                value="Go Shopping">
             <button class="btn todo-planned-task__main-button">Save</button>
             <button class="btn todo-planned-task__delete-button">
-              <img class="btn__delete" src="./remove.svg" alt="current planned task remove cross">
+              <img class="btn__delete" 
+                  src="./remove.svg" 
+                  alt="current planned task remove cross">
             </button>
           </li>
         </ul>
@@ -51,12 +61,17 @@
         <h3 class="title todo-completed-task__title">Completed</h3>
         <ul class="list todo-completed-task__list" id="completed-tasks">
           <li class="list-item todo-completed-task__list-item">
-            <input class="input todo-completed-task__checkbox" type="checkbox" checked>
-            <label class="task label todo-completed-task__label">See the Doctor</label>
+            <input class="input todo-completed-task__checkbox" 
+                type="checkbox" checked>
+            <label class="task label todo-completed-task__label">
+                See the Doctor
+            </label>
             <input type="text" class="input task todo-completed-task__text">
             <button class="btn todo-completed-task__main-button">Edit</button>
             <button class="btn todo-completed-task__delete-button">
-              <img class="btn__delete" src="./remove.svg" alt="completed task remove cross">
+              <img class="btn__delete" 
+                  src="./remove.svg" 
+                  alt="completed task remove cross">
             </button>
           </li>
         </ul>
