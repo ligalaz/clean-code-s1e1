@@ -18,44 +18,44 @@
     </header>
     <main class="todo-app">
       <section class="todo-add-task">
-        <h3 class="title">Add Item</h3>
-        <div class="task-row-wrapper">
-          <input class="input task" id="new-task" type="text">
-          <button class="btn">Add</button>
+        <h3 class="title todo-add-task__title">Add Item</h3>
+        <div class="todo-add-task__block">
+          <input class="input todo-add-task__text" type="text">
+          <button class="btn todo-add-task__add-button">Add</button>
         </div>
       </section>
       <section class="todo-planned-task">
-        <h3 class="title todo-add-task__title">Todo</h3>
-        <ul class="list" id="incompleteTasks">
-          <li class="list-item">
-            <input class="input" type="checkbox">
-            <label class="task label">Pay Bills</label>
-            <input class="input task" type="text">
-            <button class="btn edit">Edit</button>
-            <button class="btn delete">
+        <h3 class="title todo-planned-task__title">Todo</h3>
+        <ul class="list todo-planned-task__list" id="incompleteTasks">
+          <li class="list-item todo-planned-task__list-item">
+            <input class="input todo-planned-task__checkbox" type="checkbox">
+            <label class="task label todo-planned-task__label">Pay Bills</label>
+            <input class="input task todo-planned-task__text" type="text">
+            <button class="btn todo-planned-task__main-button">Edit</button>
+            <button class="btn todo-planned-task__delete-button">
               <img class="btn__delete" src="./remove.svg" alt="current planned task remove cross">
             </button>
           </li>
-          <li class="list-item editMode">
-            <input class="input" type="checkbox">
-            <label class="task label">Go Shopping</label>
-            <input class="input task" type="text" value="Go Shopping">
-            <button class="btn edit">Save</button>
-            <button class="btn delete">
+          <li class="list-item todo-planned-task__list-item list-item_edit">
+            <input class="input todo-planned-task__checkbox" type="checkbox">
+            <label class="task label todo-planned-task__label">Go Shopping</label>
+            <input class="input task todo-planned-task__text" type="text" value="Go Shopping">
+            <button class="btn todo-planned-task__main-button">Save</button>
+            <button class="btn todo-planned-task__delete-button">
               <img class="btn__delete" src="./remove.svg" alt="current planned task remove cross">
             </button>
           </li>
         </ul>
       </section>
       <section class="todo-completed-task">
-        <h3 class="title">Completed</h3>
-        <ul class="list" id="completed-tasks">
-          <li class="list-item">
-            <input class="input" type="checkbox" checked>
-            <label class="task label">See the Doctor</label>
-            <input type="text" class="input task">
-            <button class="btn edit">Edit</button>
-            <button class="btn delete">
+        <h3 class="title todo-completed-task__title">Completed</h3>
+        <ul class="list todo-completed-task__list" id="completed-tasks">
+          <li class="list-item todo-completed-task__list-item">
+            <input class="input todo-completed-task__checkbox" type="checkbox" checked>
+            <label class="task label todo-completed-task__label">See the Doctor</label>
+            <input type="text" class="input task todo-completed-task__text">
+            <button class="btn todo-completed-task__main-button">Edit</button>
+            <button class="btn todo-completed-task__delete-button">
               <img class="btn__delete" src="./remove.svg" alt="completed task remove cross">
             </button>
           </li>
