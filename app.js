@@ -133,6 +133,7 @@ var taskCompleted=function(){
     var listItem=this.parentNode;
     completedTasksHolder.appendChild(listItem);
     bindTaskEvents(listItem, taskIncomplete);
+    listItem.querySelector("label").classList.add('todo-completed-task__label');
 
 }
 
@@ -145,6 +146,7 @@ var taskIncomplete=function(){
     var listItem=this.parentNode;
     incompleteTaskHolder.appendChild(listItem);
     bindTaskEvents(listItem,taskCompleted);
+    listItem.querySelector("label").classList.remove('todo-completed-task__label');
 }
 
 
