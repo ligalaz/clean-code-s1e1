@@ -1,5 +1,5 @@
 /* Basic Style */
-.page-structure {
+.page {
   background-color: #f8f8f8;
   color: #333;
   font-family: "Lato", sans-serif;
@@ -10,7 +10,7 @@
   display: block;
   text-align: right;
 }
-.todo-info__image {
+.todo-info__img {
   width: 100%;
 }
 .todo-info__link {
